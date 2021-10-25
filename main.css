@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+}
+
+th {
+    width: 80px;
+}
+
+td {
+    width: 80px;
+}
+
+.email {
+    width: 114px
+}
+
+
+.table-container {
+    margin-top: 15px;
+    height: 20px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.form-table {
+    display: flex;
+    padding-top: 50px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.btn-add ,.btn-save-edit {
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+    border: 1px solid rgb(10, 150, 10);
+    color: rgb(10, 150, 10);
+    background-color: white;
+}
+
+.btn-save-edit {
+    display: none;
+}
+
+.input-login, .input-password, .input-email {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid lightgray;
+    height: 40px;
+    width: 500px;
+    margin-right: 30px;
+}
+
+.btnEdit, .btnDelete {
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 50px;
+    background-color: yellow;
+}
+
+.btnDelete {
+    width: 70px;
+    background-color: red;
+    color: white;
+}
+
+.errorLogin, .errorPassword, .errorEmail {
+    color: rgb(226, 133, 133);
+    display: none;
+}
+
+.ivalidLoginText, .ivalidPasswordText, .ivalidEmailText {
+    font-size: 10px;
+    margin-bottom: 10px;
+}

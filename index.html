@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+
+    <div class="main-container">
+        <div class="form-table">
+            <form class="form1">
+                <p>Login</p>
+                    <input type="text" class="input-login">
+                <div class="errorLogin">
+                    <p class="ivalidLoginText">Invalid Login </p>
+                </div>
+
+                <p>Password</p>
+                <input type="password" class="input-password">
+                <div class="errorPassword">
+                    <p class="ivalidPasswordText">Invalid Password</p>
+                </div>
+
+                <p>Email address</p>
+                <input type="text" class="input-email">
+                <div class="errorEmail">
+                    <p class="ivalidEmailText">Invalid Email</p>
+                </div>
+
+                <div>
+                    <input type="button" class="btn-add" value="Add user">
+                    <input type="button" class="btn-save-edit" value="Edit user">
+                </div>
+            </form>
+            <div class="table-container">
+                <table class="table">
+                    <thead>
+                    <tr class="tr">
+                        <th>#</th>
+                        <th>Login</th>
+                        <th>Password</th>
+                        <th class="email">Email</th>
+                        <th>Edit</th>
+                        <th>Delet</th>
+                    </tr>
+                </thead>
+                <tbody id="users-list"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
